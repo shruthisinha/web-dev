@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JUMBLE</title>
+</head>
+<body>
+  
+      <h2>Can you guess the jumbled word?</h2>
+      
+    <div class="container">
+        <div class="padd">
+            <div class="score">
+                <p id="score">0</p>
+            </div>
+            <div class="jumbled">
+                <p id="j-word"></p>
+            </div>
+            <div class="user-input">
+                <input type="text" class="inp" id="inp" placeholder="Correct word"/>
+                <button class="btn" onclick="checkAnswer()">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="jumble.js"></script>
+</body>
+</html>
